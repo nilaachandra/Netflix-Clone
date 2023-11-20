@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Martel+Sans&family=Poppins&family=Space+Grotesk&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins','Martel Sans', Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    height: 60px;
+}
+.logo{
+    width: 114px;
+    position: relative;
+    z-index: 1;
+}
+button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 12px;
+    text-align: center;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.seperation{
+    height: 8px;
+    background-color: rgb(54, 54, 54);
+    position: relative;
+
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.2);
+    border: 1px solid rgba(238, 232, 232, 0.5);
+    font-weight: 400;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 4px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.main input{
+    font-weight: 400;
+    color: white;
+    padding: 11px 101px 5px 12px;
+    font-size: 12px;
+    border-radius: 4px;  
+    background-color: rgba(23,23,23,0.5);
+    border: 1px solid rgba(238, 232, 232, 0.5);
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+    align-items: center;
+    height: 75vh;
+}
+.section-img{
+    width: 30vw;
+    position: relative;
+    top: 1rem;
+    z-index: 10;
+}
+.section-img2{
+    width: 30vw;
+    position: relative;
+    left: -12rem
+}
+.section-img video{
+    position: absolute;
+    top: 97px;
+    left: 77px;
+    z-index: -10;
+}
+ .sec-header{
+    display: flex;
+    flex-direction: column;
+    z-index: 15;
+}
+.sec-header >:nth-child(1){
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec-header >:nth-child(2){
+    font-size: 24px;
+}
+.second .section-img img{
+    left: 1rem;
+}
+.third img{
+    width: 40vw;
+    position: relative;
+    top: 1rem;
+    z-index: 10;
+}
+.third video{
+    width: 24vw;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    z-index: -10;
+}
+.faq h2{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+}
+.faq-box{
+display: flex;
+background-color: rgb(48, 47, 47);
+color: white;
+padding: 24px;
+max-width: 84vw;
+margin: 16px auto;
+justify-content: space-between;
+cursor: pointer;
+font-size: 24px;
+transition: all 1s ease-out;
+}
+.faq-box svg{
+    filter: invert(1);
+}
+.faq-box:hover{
+background-color: grey;
+transition: all 1s ease-out;
+}
+footer{
+    color: white;
+    max-width: 99vw;
+    margin: auto;
+    padding: 14px;
+}
+footer span{
+    padding: 0 150px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin: auto;
+    padding: 34px;
+}
+
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    gap: 24px;
+}
+
+footer a{
+    color: white;
+    font-size: 14px;
+}
